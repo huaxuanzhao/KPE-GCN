@@ -35,4 +35,4 @@ Please make RAKE folder and KPEGCN folder in the same directory, for example as 
 ## Example input data
 1. `/data/proposal.txt` indicates proposal names, training/test split, proposal labels. Each line is for a proposal.  
 2. `/data/corpus/proposal.txt` contains raw text of each proposal, each line is for the corresponding line in `/data/proposal.txt`  
-3. `data_agumentation.py` and `data_agumentation.py` belong to data agumentation part in the 'balanced_kwgcn' model. We provide a commen procedure for data agmentation which perhaps benefit for your own dataset. In our proposal dataset, '/data/proposal_balance' and '/data/corpus/proposal_balance' are the result files, which you can use directly.    
+3. `select_keyphrase.py` and `data_agumentation.py` belong to data agumentation part in the 'balanced_kwgcn' model. We provide a commen procedure for data agmentation which perhaps benefit for your own dataset. In our proposal dataset, '/data/proposal_balance' and '/data/corpus/proposal_balance' are the result files, which you can use directly.    
