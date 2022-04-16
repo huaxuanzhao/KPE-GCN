@@ -1,0 +1,2 @@
+model_checkpoint_path: "balanced_kwgcn.ckpt"
+all_model_checkpoint_paths: "balanced_kwgcn.ckpt"
